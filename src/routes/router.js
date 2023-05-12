@@ -8,7 +8,7 @@ const message = require('../controllers/message')
 router.get('/', message.helloworld)
 
 /* Example for (message: testing)
-    router.get('/testing', testMessage.testing)
+    router.get('/testing', message.testing)
 */
 
 module.exports = router
